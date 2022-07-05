@@ -52,6 +52,6 @@ input {
 }
 
 
-.startcard, .highscores {
+.highscores, .done {
     display: none;
 }
