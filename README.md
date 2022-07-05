@@ -7,6 +7,9 @@ This is one of the many projects available on [codedamn](https://codedamn.com/pr
 
 ## Project Overview
 
+### Live Link
+https://quiz-app-sidehustle.netlify.app/
+
 ### The header 
 
 The header of the application should contain two elements spaced between.
