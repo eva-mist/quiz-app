@@ -14,7 +14,8 @@
     <header>
         <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
         </i></a> 
-        <p class="timer">Time:</p>
+        <p class="timer">Time:<span class="timer_sec">15</span></p>
+        
     </header>
     <main>
         <!-- startcard -->
@@ -29,8 +30,8 @@
         <div class="highscores">
             <h1>Highscores</h1>
             <ol>
-                <li>CD -9</li>
-                <li>DC -10</li>
+                <li class="highscore_list">CD -9</li>
+                <li class="highscore_list">DC -10</li>
             </ol>
             <button class="back">Go Back</button>
             <button class="clear">Clear Highscores</button>
@@ -43,6 +44,21 @@
                 <span>Enter initials:</span>
                 <input>
                 <button class="submit">Submit</button>
+        </div>
+
+        <!-- questions  -->
+        <div class="que">
+            <h1 class="que_text">
+                <!-- Insert questions from Javascript -->
+                Commonly used data types DO NOT include:
+            </h1>
+                <!-- Insert options of Javascript -->
+                <ul class="option_list">
+                    <li>1. Strings</li>
+                    <li>2. Booleans</li>
+                    <li>3. alerts</li>
+                    <li>4. numbers</li>
+                </ul>
         </div>
     </main>
     <script src="assets/script.js"></script>

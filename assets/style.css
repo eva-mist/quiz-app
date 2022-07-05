@@ -42,7 +42,7 @@ button {
     margin-top: 15px;
 }
 
-li {
+li.highscores_list {
     margin: 0 3rem;
 }
 
@@ -51,7 +51,15 @@ input {
     padding: .3em;
 }
 
+.option_list li {
+    background-color: #218380;
+    color: #ffffff;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
-.highscores, .done {
+
+.highscores, .done, .que {
     display: none;
 }
